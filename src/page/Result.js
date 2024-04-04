@@ -27,6 +27,9 @@ const Result = () => {
             color: 'white', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',
             flexDirection: 'column', paddingTop: '30%'
         }}>
+            <div className="firework"></div>
+            <div className="firework"></div>
+            <div className="firework"></div>
             <div>
                 <div style={{
                     width: '150px', height: '150px', backgroundImage: `url(${std_logo})`, backgroundRepeat: 'no-repeat',
