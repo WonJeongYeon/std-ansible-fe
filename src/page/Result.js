@@ -25,7 +25,7 @@ const Result = () => {
     return (
         <div style={{
             color: 'white', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',
-            flexDirection: 'column', paddingTop: '30%'
+            flexDirection: 'column', marginTop: '120px'
         }}>
             <div className="firework"></div>
             <div className="firework"></div>
@@ -33,11 +33,11 @@ const Result = () => {
             <div>
                 <div style={{
                     width: '150px', height: '150px', backgroundImage: `url(${std_logo})`, backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center'
+                    backgroundPosition: 'center', backgroundSize: 'cover'
                 }}>
                 </div>
             </div>
-            <div style={{margin: '50px'}}>
+            <div style={{marginLeft: '10vw', marginRight: '10vw', marginTop: '50px', marginBottom: '50px'}}>
                 <div style={{fontSize: '30px'}}>당첨을 축하합니다!</div>
                 <hr/>
                 {
@@ -51,7 +51,7 @@ const Result = () => {
                 }
             </div>
 
-            <div>커피 기프티콘을 빠른 시간 내에 보내드리겠습니다.</div>
+            <div>2층 카페 음료 리필권을 획득하셨습니다.</div>
 
         </div>
     )

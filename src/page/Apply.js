@@ -49,12 +49,14 @@ const Apply = () => {
     return (
         <div style={{
             color: 'white', width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'center',
-            flexDirection: 'column', paddingTop: '30%'
+            flexDirection: 'column',
+            marginTop: '120px'
         }}>
             <div>
                 <div style={{
-                    width: '150px', height: '150px', backgroundImage: `url(${std_logo})`, backgroundRepeat: 'no-repeat',
-                    backgroundPosition: 'center'
+                    width: '150px', height: '150px',
+                    backgroundImage: `url(${std_logo})`, backgroundRepeat: 'no-repeat',
+                    backgroundPosition: 'center', backgroundSize: 'cover'
                 }}>
                 </div>
             </div>

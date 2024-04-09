@@ -12,7 +12,8 @@ const RoundButton = styled.button`
     cursor: pointer;
     background-color: #97ffb5;
     margin-top: 30px;
-    color: white;
+    color: black;
+    font-weight: 700;
     //margin-left: 50px;
     //margin-right: 50px;
 
