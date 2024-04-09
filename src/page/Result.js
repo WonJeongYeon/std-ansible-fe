@@ -51,7 +51,7 @@ const Result = () => {
                 }
             </div>
 
-            <div>2층 카페 음료 리필권을 획득하셨습니다.</div>
+            <div style={{textAlign: "center"}}>참여해 주셔서 감사합니다!<br/>오늘도 좋은 하루 되세요!</div>
 
         </div>
     )
